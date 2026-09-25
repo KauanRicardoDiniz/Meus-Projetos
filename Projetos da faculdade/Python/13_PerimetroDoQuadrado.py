@@ -1,0 +1,1 @@
+print("O perimetro do quadrado é {:.0f}.".format(4 * 7))

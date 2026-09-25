@@ -1,0 +1,1 @@
+print("A area do circulo é: {}".format(3.14 * 5**2))
