@@ -2,7 +2,7 @@
 c = 0
 s = 0
 while True:
-    produto = int(input("Qual o preço do produto ? R$ "))
+    produto = float(input("Qual o preço do produto ? R$ "))
     if produto == 0:
         break
     c += 1
