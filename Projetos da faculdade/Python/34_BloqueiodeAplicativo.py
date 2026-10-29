@@ -4,7 +4,7 @@ count = 0
 while senha != 123456:
     senha = int(input("Digite a senha: "))
     count += 1
-    if count == 2:
+    if count == 2 and senha != 123456:
         print("Aplicativo bloqueado temporariamente. Tente novamente mais tarde.")
         break
 if senha == 123456:
